@@ -11,6 +11,9 @@ This widget can be a good stub
 ```dart
 loading || response == null ? const AwersomeSceleton( width: 100, height: 20, shape: SkeletonShape.rectangle)
 ```
+![image](https://user-images.githubusercontent.com/45514323/227962888-e2d74701-119e-4303-865b-a74c339a4568.png)
+
+![image](https://user-images.githubusercontent.com/45514323/227962741-5b0f034a-20ed-4d0d-8101-94dfe46250e7.png)
 
 
 ## Usage

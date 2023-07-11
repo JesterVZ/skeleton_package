@@ -72,6 +72,7 @@ class _AwersomeSceletonState extends State<AwersomeSceleton>
       width: widget.width,
       height: widget.height,
       decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(widget.borderRadius ?? 0),
           shape: shapes[widget.shape]!,
           gradient: LinearGradient(
               begin: Alignment(_gradientAnimation.value, 0),
